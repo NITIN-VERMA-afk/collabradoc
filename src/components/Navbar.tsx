@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Moon, MoonIcon, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
@@ -48,27 +48,16 @@ const Navbar = () => {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href=""
                         className={`${
                           active ? "bg-gray-100 text-gray-900" : "text-gray-700"
                         } block px-4 py-2 text-sm`}
                       >
-                        Product 1
+                        upcoomig.........
                       </a>
                     )}
                   </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a
-                        href="#"
-                        className={`${
-                          active ? "bg-gray-100 text-gray-900" : "text-gray-700"
-                        } block px-4 py-2 text-sm`}
-                      >
-                        Product 2
-                      </a>
-                    )}
-                  </Menu.Item>
+                  
                 </div>
               </Menu.Items>
             </Menu>
